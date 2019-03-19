@@ -9,7 +9,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
 
 });
-app.post('/login', (req, res) => {
+app.get('/login', (req, res) => {
   res.redirect('https://auth.tdameritrade.com/auth?response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000&client_id=MICHAEL@AMER.OAUTHAP');
 });
 
