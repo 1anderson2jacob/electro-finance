@@ -1,0 +1,25 @@
+{
+  "name": "electro-finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1anderson2jacob/electro-finance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1anderson2jacob/electro-finance/issues"
+  },
+  "homepage": "https://github.com/1anderson2jacob/electro-finance#readme"
+}
